@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="contact.css">
-    <title>My first homepage</title>
+    <title>My contact page</title>
 </head>
 <body>
     <div class="content">
@@ -36,35 +36,24 @@
     <main>
         <section> <!-- Hero Section -->
             <div>
-                <h3>This is my first<br>website :D</h3>
+                <h3>Contact Form</h3>
             </div>
         </section>
         <article>
-            <div class="article1"> <!-- created a div class "article1" that goes across the page -->
+            <div class="article1"> <!-- created a div class "article1" that goes across the width of the page -->
                 <div class="acrosspageimg"> <!-- acrosspageimg class for img box sizing -->
                     <img src="Phone.png" alt="Phone">
-                    <h2>Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</h2>
+                    <h2>Please feel free to reach out to me for questions!</h2>
+                    <form>
+                        Name: <input name="name" type="text" placeholder="Full name"><br>
+                        E-Mail: <input name="name" type="text" placeholder="Address@example.com"><br>
+                        <textarea cols="20" name="comments" rows="10" placeholder="Message"></textarea><br>
+                        <label><input name="terms" type="checkbox">Accept terms</label> <br>
+                        <input type="submit" value="Submit">
+                    </form>
                 </div>
             </div>
         </article>
-        <div class="article2"> <!-- created a div class "article2" that only uses approx. half the page -->
-                <article>
-                    <div class="articlesmall"> <!-- articlesmall = div inside article2 to size half page width articles -->
-                        <div class="halfpageimg"> <!-- halfpageimg class for img box sizing -->
-                            <img src="Debit_card_ATM.jpg" alt="Debit-Card">
-                        </div>
-                        <h2>Police are investigating three ATM explosions in two Florida counties</h2>
-                    </div>
-                </article>
-                <article>
-                    <div class="articlesmall">
-                        <div class="halfpageimg">
-                            <img src="Taxify-Scooters.jpg" alt="Taxify-Scooters">
-                        </div>
-                        <h2>E-scooter firm Bolt pulls out of 12 cities</h2>
-                    </div>
-                </article>
-        </div>
     </main>
     <footer>
         <img src="logo.png" alt="logo">

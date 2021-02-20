@@ -93,10 +93,17 @@ main {
 section {
     font-size: 35pt;
     font-weight: bolder;
+    text-align: center;
 }
 
 section div {
-    height: 220px;
+    height: 120px;
+    display: inline-block;
+}
+
+section h3 {
+    position: relative;
+    bottom: 20px;
 }
 
 /* section styling */
@@ -108,45 +115,54 @@ section {
 /* article styling */
 
 .article1 { /* article1 uses the whole width of the page */
-    text-align: center;
-    height: 250px;
     margin: 0;
-    padding-bottom: 15px;
 }
 
 .acrosspageimg img {
     object-fit: cover;
     object-position: 10% 50%;
-    width: 830px;
+    width: 960px;
     height: 210px;
+}
+
+.author {
+    font-size: 10pt;
 }
 
 article h2 {
     font-size: 16.5pt;
+    text-align: left;
     font-weight: bold;
     position: relative;
-    bottom: 10px;
-    margin: 0;
-    padding: 10px;
+    margin-top: 20px;
+    padding: 0px;
 }
 
-.article2 { /* article1 uses almost half the width of the page */
-    text-align: center;
-    height: 290px;
+form {
+    font-size: 10pt;
+    margin-bottom: 20px;
 }
 
-.articlesmall {
-    float:left;
-    width: 390px;
-    text-align: center;
-    margin-left: 58px;
-    margin-right: 7px;
-    padding: 0;
-    background-color: white;
+textarea {
+    width: 96%;
+    height: 150px;
+    padding: 12px 20px 10px 10px;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
 }
 
-.halfpageimg img {
-    height: 210px;
+form [type="submit"] {
+    margin-top: 10px;
+    width: 99%;
+    position: relative;
+    left: 3px;
+    font-size: 10pt;
+    background-color: dodgerblue;
+    color: white;
+
 }
 
 /* footer styling */
