@@ -111,6 +111,7 @@ section h3 {
 
 .article1 { /* article1 uses the whole width of the page */
     margin: 0;
+    padding: auto;
 }
 
 .acrosspageimg img {

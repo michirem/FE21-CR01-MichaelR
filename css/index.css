@@ -104,9 +104,8 @@ section div {
 
 .article1 { /* article1 uses the whole width of the page */
     text-align: center;
-    height: 250px;
+    height: 270px;
     margin: 0;
-    padding-bottom: 15px;
 }
 
 .acrosspageimg img {
@@ -127,17 +126,26 @@ article h2 {
 
 .article2 { /* article1 uses almost half the width of the page */
     text-align: center;
-    height: 290px;
+    height: 295px;
 }
 
 .articlesmall {
-    float:left;
     width: 390px;
+    height: 290px;
+    float: left;
     text-align: center;
     margin-left: 58px;
     margin-right: 7px;
     padding: 0;
     background-color: white;
+}
+
+#small1 {
+    
+}
+
+#small2 {
+    
 }
 
 .halfpageimg img {
@@ -147,6 +155,8 @@ article h2 {
 /* footer styling */
 
 footer {
+    float:left;
+    width: 98%;
     background-color: rgb(202, 191, 190);
     text-align: center;
     font-size: 12pt;
