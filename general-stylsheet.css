@@ -10,11 +10,6 @@ body {
     margin: auto;
 }
 
-div {
-    border: blue;
-    border-style: solid;
-}
-
 /* header background */
 header {
     background-color: rgb(202, 191, 190);
@@ -116,14 +111,14 @@ section {
     text-align: center;
     height: 250px;
     margin: 0;
-    padding: 0;
+    padding-bottom: 15px;
 }
 
 .acrosspageimg img {
     object-fit: cover;
     object-position: 10% 50%;
-    width: 780px;
-    height: 200px;
+    width: 830px;
+    height: 210px;
 }
 
 article p {
@@ -136,26 +131,37 @@ article p {
 }
 
 .article2 {
-    height: 280px;
+    text-align: center;
+    height: 290px;
 }
 
 .articlesmall {
     float:left;
-    width: 370px;
+    width: 390px;
     text-align: center;
-    margin-left: 63px;
-    margin-right: 15px;
+    margin-left: 58px;
+    margin-right: 7px;
     padding: 0;
+    background-color: white;
 }
 
 .halfpageimg img {
-    width: 330px;
+    height: 210px;
 }
 
 /* footer styling */
 
 footer {
     background-color: rgb(202, 191, 190);
+    text-align: center;
+    font-size: 12pt;
+    padding: 10px;
 }
 
+footer img {
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
 
