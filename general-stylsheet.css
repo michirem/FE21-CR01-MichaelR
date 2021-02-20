@@ -21,13 +21,13 @@ header {
     height: 125px;
 }
 
-#bannerbox1 {
+#bannerbox1 { /* outer box for the left banner text to position the text box inside */
     height: 125px;
     width: 45%;
     float:left;
 }
 
-#bannertext {
+#bannertext { /* innter box for left side banner text */
     float: left;
     position: relative;
     top: 15%;
@@ -36,13 +36,13 @@ header {
     padding: 10px;
 }
 
-#bannerbox2 {
+#bannerbox2 { /* outer box for the right bannerlogo box positioning */
     height: 125px;
     width: 45%;
     float:right;
 }
 
-#bannerlogo {
+#bannerlogo { /* innter box for right side banner logo */
     float: right;
     position: relative;
     top: 12%;
@@ -107,7 +107,7 @@ section {
 
 /* article styling */
 
-.article1 {
+.article1 { /* article1 uses the whole width of the page */
     text-align: center;
     height: 250px;
     margin: 0;
@@ -121,8 +121,8 @@ section {
     height: 210px;
 }
 
-article p {
-    font-size: 16pt;
+article h2 {
+    font-size: 16.5pt;
     font-weight: bold;
     position: relative;
     bottom: 10px;
@@ -130,7 +130,7 @@ article p {
     padding: 10px;
 }
 
-.article2 {
+.article2 { /* article1 uses almost half the width of the page */
     text-align: center;
     height: 290px;
 }

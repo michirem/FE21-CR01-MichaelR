@@ -9,45 +9,51 @@
 </head>
 <body>
     <div class="content">
-        <header>
-            <div id="banner">
-                <div id=bannerbox1>
-                <div id="bannertext"><p>Michael Reimer- Full-Stack Web Developer</p></div>
-                </div>
-                <div id=bannerbox2>
-                <div id="bannerlogo"><img src="logo.png" alt="Logo"></div>
-                </div>
-            </div>
-        <div>
-            <nav>  
-            <ul>
-                <li><a href="/" class="nav-link">Home</a></li>
-                <li><a href="/link" class="nav-link">Blog</a></li>
-                <li><a href="/link" class="nav-link">About me</a></li>
-                <li><a href="/link" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
-        </div>
-    </header>
-    <main role="main">
-        <section>
-            <div><p>This is my first<br>website :D</p></div>
-        </section>
-            <article>
-                <div class="article1">
-                    <div class="acrosspageimg">
-                        <img src="Phone.png" alt="Phone">
-                        <p>Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</p>
+        <header> <!-- header contains a banner div with 2 divs inside, one for the text, one for the logo; plus the nav bar -->
+            <div id="banner"> <!-- whole banner div for the header section -->
+                <div id=bannerbox1> <!-- outer box for the left banner text to position the text box inside -->
+                    <div id="bannertext"> <!-- innter box for left side banner text -->
+                        <p>Michael Reimer- Full-Stack Web Developer</p>
                     </div>
                 </div>
-            </article>
-            <div class="article2">
+                <div id=bannerbox2> <!-- outer box for the right bannerlogo box positioning -->
+                    <div id="bannerlogo"> <!-- nnter box for right side banner logo -->
+                        <img src="logo.png" alt="Logo">
+                    </div>
+                </div>
+            </div>
+            <div> <!-- Navbar div -->
+                <nav>  
+                    <ul>
+                        <li><a href="/" class="nav-link">Home</a></li>
+                        <li><a href="/link" class="nav-link">Blog</a></li>
+                        <li><a href="/link" class="nav-link">About me</a></li>
+                        <li><a href="/link" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    <main>
+        <section> <!-- Hero Section -->
+            <div>
+                <h3>This is my first<br>website :D</h3>
+            </div>
+        </section>
+        <article>
+            <div class="article1"> <!-- created a div class "article1" that goes across the page -->
+                <div class="acrosspageimg"> <!-- acrosspageimg class for img box sizing -->
+                    <img src="Phone.png" alt="Phone">
+                    <h2>Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</h2>
+                </div>
+            </div>
+        </article>
+        <div class="article2"> <!-- created a div class "article2" that only uses approx. half the page -->
                 <article>
-                    <div class="articlesmall">
-                        <div class="halfpageimg">
+                    <div class="articlesmall"> <!-- articlesmall = div inside article2 to size half page width articles -->
+                        <div class="halfpageimg"> <!-- halfpageimg class for img box sizing -->
                             <img src="Debit_card_ATM.jpg" alt="Debit-Card">
                         </div>
-                        <p>Police are investigating three ATM explosions in two Florida counties</p>
+                        <h2>Police are investigating three ATM explosions in two Florida counties</h2>
                     </div>
                 </article>
                 <article>
@@ -55,7 +61,7 @@
                         <div class="halfpageimg">
                             <img src="Taxify-Scooters.jpg" alt="Taxify-Scooters">
                         </div>
-                        <p>E-scooter firm Bolt pulls out of 12 cities</p>
+                        <h2>E-scooter firm Bolt pulls out of 12 cities</h2>
                     </div>
                 </article>
         </div>
