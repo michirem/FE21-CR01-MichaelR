@@ -1,0 +1,167 @@
+/* General styling*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* header background */
+header {
+    background-color: rgb(202, 191, 190);
+ }
+
+/* banner styling */
+
+#banner {
+    height: 125px;
+}
+
+#bannerbox1 { /* outer box for the left banner text to position the text box inside */
+    height: 125px;
+    width: 45%;
+    float:left;
+}
+
+#bannertext { /* innter box for left side banner text */
+    float: left;
+    position: relative;
+    top: 15%;
+    left: 15%;
+    font-size: 15pt;
+    padding: 10px;
+}
+
+#bannerbox2 { /* outer box for the right bannerlogo box positioning */
+    height: 125px;
+    width: 45%;
+    float:right;
+}
+
+#bannerlogo { /* innter box for right side banner logo */
+    float: right;
+    position: relative;
+    top: 12%;
+    right: 5%;
+}
+
+#bannerlogo img {
+    width: 250px;
+}
+
+/* Navigation bar styling */
+
+nav {
+    background-color: rgb(214, 102, 94);
+    height: 35px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    margin-right: 1.5cm;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+    font-size: 14pt;
+    position: relative;
+    top: 7px;
+}
+
+a.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* main styling */
+
+main {
+    background-color: white;
+}
+
+/* section styling */
+
+section {
+    font-size: 35pt;
+    font-weight: bolder;
+}
+
+section div {
+    height: 220px;
+}
+
+/* section styling */
+
+section {
+    text-align: center;
+}
+
+/* article styling */
+
+.article1 { /* article1 uses the whole width of the page */
+    text-align: center;
+    height: 250px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.acrosspageimg img {
+    object-fit: cover;
+    object-position: 10% 50%;
+    width: 830px;
+    height: 210px;
+}
+
+article h2 {
+    font-size: 16.5pt;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    margin: 0;
+    padding: 10px;
+}
+
+.article2 { /* article1 uses almost half the width of the page */
+    text-align: center;
+    height: 290px;
+}
+
+.articlesmall {
+    float:left;
+    width: 390px;
+    text-align: center;
+    margin-left: 58px;
+    margin-right: 7px;
+    padding: 0;
+    background-color: white;
+}
+
+.halfpageimg img {
+    height: 210px;
+}
+
+/* footer styling */
+
+footer {
+    background-color: rgb(202, 191, 190);
+    text-align: center;
+    font-size: 12pt;
+    padding: 10px;
+}
+
+footer img {
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
