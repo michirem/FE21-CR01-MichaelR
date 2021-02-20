@@ -33,12 +33,11 @@ header {
 }
 
 #bannertext {
-    background-color: rgb(245, 20, 20);
     float: left;
     position: relative;
     top: 15%;
     left: 15%;
-    font-size: 13pt;
+    font-size: 15pt;
     padding: 10px;
 }
 
@@ -49,22 +48,21 @@ header {
 }
 
 #bannerlogo {
-    background-color: rgb(245, 20, 20);
     float: right;
     position: relative;
     top: 12%;
+    right: 5%;
 }
 
 #bannerlogo img {
     width: 250px;
-    background-color: white;
 }
 
 /* Navigation bar styling */
 
 nav {
-    background-color: rgb(187, 89, 82);
-    height: 50px;
+    background-color: rgb(214, 102, 94);
+    height: 35px;
 }
 
 nav ul {
@@ -72,15 +70,15 @@ nav ul {
     margin: 0;
     padding: 0;
     text-align: right;
-    margin-right: 1.0cm;
+    margin-right: 1.5cm;
 }
 
 nav ul li {
     display: inline;
     margin: 5px;
-    font-size: 12pt;
+    font-size: 14pt;
     position: relative;
-    top: 16px;
+    top: 7px;
 }
 
 a.nav-link {
@@ -95,11 +93,63 @@ main {
     background-color: white;
 }
 
+/* section styling */
+
+section {
+    font-size: 35pt;
+    font-weight: bolder;
+}
+
+section div {
+    height: 220px;
+}
+
+/* section styling */
+
+section {
+    text-align: center;
+}
+
 /* article styling */
 
-.acrosspage img {
+.article1 {
+    text-align: center;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.acrosspageimg img {
     object-fit: cover;
-    width: 500px;
+    object-position: 10% 50%;
+    width: 780px;
+    height: 200px;
+}
+
+article p {
+    font-size: 16pt;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    margin: 0;
+    padding: 10px;
+}
+
+.article2 {
+    height: 280px;
+}
+
+.articlesmall {
+    float:left;
+    width: 370px;
+    text-align: center;
+    margin-left: 63px;
+    margin-right: 15px;
+    padding: 0;
+}
+
+.halfpageimg img {
+    width: 330px;
 }
 
 /* footer styling */
