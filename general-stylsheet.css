@@ -93,16 +93,11 @@ main {
 section {
     font-size: 35pt;
     font-weight: bolder;
+    text-align: center;
 }
 
 section div {
     height: 220px;
-}
-
-/* section styling */
-
-section {
-    text-align: center;
 }
 
 /* article styling */
